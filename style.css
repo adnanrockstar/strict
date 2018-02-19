@@ -1,0 +1,429 @@
+@font-face {
+	
+	font-family: "Gotham Rounded Bold";
+	src:url('fonts/GothamRoundedBold.woff');
+}
+
+@font-face {
+	
+	font-family: "Gotham Rounded Light";
+	src:url('fonts/GothamRoundedLight.woff');
+}
+
+@font-face{
+	font-family:"GothamRoundedBook";
+	src:url('fonts/GothamRoundedBook.woff');
+}
+
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+}
+.body {
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	font-family:"GothamRoundedBook";
+}
+.container {
+	width:60%;
+	margin:auto;
+	
+}
+.header-area {
+	color:#ffffff;
+	text-align:center;
+	background: url('images/header-bg.jpg') no-repeat 0 0 / 100% 100%;
+	
+}
+.menu-area {}
+.menu-area ul {}
+.menu-area ul li{
+	display: inline-block;
+}	
+.menu-area ul li a{
+	
+	display:block;
+	padding:35px;
+	color:#ffffff;
+	text-transform:uppercase;
+	font-family: "Gotham Rounded Bold";
+	letter-spacing:0.2em;
+	text-decoration:none;
+	
+}
+.slogan-area{
+	margin-top:170px;
+	margin-left:0;
+}
+.slogan-area h2 {
+	margin:0;
+	font-family: "Gotham Rounded Bold";
+	text-transform:uppercase;
+	font-size:35px;
+	letter-spacing:0.3em;
+	
+}
+.slogan-area p {
+	font-family:'Gotham Rounded Bold';
+	font-size:16px;
+	letter-spacing:0.1em;
+	margin-bottom:90px;
+	
+}	
+.slogan-area a {
+	
+	text-decoration:none;
+	color:#ffffff;
+	font-family: "Gotham Rounded Bold";
+	text-transform:uppercase;
+	background-color:#16a085;
+	padding:15px 30px;
+	
+	
+}
+
+.social-icon-area{ margin-top:150px; text-align:none;}
+.social-icon-area ul { margin-left:-5%;}
+.social-icon-area ul li{
+	display:inline-block;
+	
+}
+.social-icon-area ul li a{
+	display:block;
+	padding:15px;
+	color:#ffffff;
+	font-size:40px;
+
+} 
+.get-started-area {
+	
+	overflow: hidden;
+	box-sizing:border box;
+	background-color:#f5f6f7;
+	height:400px;
+}
+.get-started-slogan {
+	margin-top:70px;
+	width:45%;
+	float:left;
+	overflow:hidden;
+	
+}
+.get-started-slogan h3 { 
+
+	color:#16a085;
+	font-family:"Gotham Rounded Bold";
+	font-size:20px;
+	letter-spacing:0.1em;
+	text-transform:uppercase;
+}
+
+.get-started-slogan p {
+	margin-top:30px;
+	color:#505051;
+	font-family:"Gotham Rounded Light";
+	font-size:12px;
+	line-height: 200%;
+	
+}
+.mobile-area {
+	margin-top:70px;
+	float:right;
+	overflow:hidden;
+	width:55%;
+}
+.mobile-area img {
+	width:100%;
+	height:auto;
+	
+}
+.get-started-slogan a {
+	
+	text-decoration:none;
+	color:#ffffff;
+	font-family: "Gotham Rounded Bold";
+	text-transform:uppercase;
+	background-color:#16a085;
+	padding:15px 30px;
+	display:inline-block;
+	margin-top:40px;
+	font-size:12px;
+	
+	
+}
+
+.design-area {
+	
+	overflow:hidden;
+	height:500px;
+	
+}
+.design-left-area{
+	padding-top:80px;
+	float:left;
+	overflow:hidden;
+	width:45%;
+	}
+.design-right-area {
+	padding-top:80px;
+	float:right;
+	overflow:hidden;
+	width:45%;
+}
+
+.design-right-area h3{
+	color:#16a085;
+	text-transform:uppercase;
+	font-family: "Gotham Rounded Bold";
+	margin-bottom:30px;
+}
+
+.design-right-area p{
+	font-size:12px;
+	color:#5f5f5f;
+	letter-spacing:0.1em;
+	line-height:20px;
+	
+}
+
+.design-right-area a {
+	
+	text-decoration:none;
+	display:inline-block;
+	background:#16a085;
+	padding:20px 50px;
+	color:#ffffff;
+	margin: 30px 0 ;
+	text-transform:uppercase;
+	font-family:"Gotham Rounded Bold";
+	font-size:13px;
+}
+
+.design-right-area i {
+	
+	font-size:20px;
+	margin-right:10px;
+	
+}
+
+.our-community-area{
+	background-color:#f5f6f7;
+	overflow:hidden;
+	
+}
+.community-one{
+	padding:70px 0;
+	width:24%;
+	float:left;
+	overflow:hidden;
+	margin-right:2%;
+	text-align:center;
+	}
+	
+.community-one h3 {
+	text-transform: uppercase;
+	margin: 10px;
+	font-family: "Gotham Rounded Bold";
+	letter-spacing: 0.1em;
+	color:#373737;
+}
+.community-one p {
+	
+	font-family:"GothamRoundedBook";
+	color:#838384;
+	font-size:13px;
+	letter-spacing:0.1em;
+}
+.community-two{
+	padding:70px 0;
+	width:36%;
+	float:left;
+	overflow:hidden;
+	margin-right:2%;
+}
+.community-two img{
+	width:100%;
+	height:auto;
+}
+.community-three{
+	padding:70px 0;
+	width:36%;
+	overflow:hidden;
+	
+} 
+
+.community-three img{
+	width:100%;
+	height:auto;
+}
+
+.subscribe-area{
+	
+	overflow:hidden;
+	height:1000px;
+	background:url(images/mail.jpg) no-repeat scroll 0 0 / cover;
+	text-align:center;
+	
+	
+}
+.subscribe-us {
+	padding:400px 0;
+}
+.subscribe-us h2{
+	color:#ffffff;
+	text-transform:uppercase;
+	font-family: "Gotham Rounded Bold";
+	margin-bottom:30px;
+	letter-spacing:0.1em;
+	
+	
+}
+
+.subscribe-us input[type="text"]{
+	overflow: visible;
+	width: 230px;
+	height: 23px;
+	padding: 15px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'gotham rounded bold';
+}
+
+.subscribe-us a{
+	color:#ffffff;
+	background-color:#16a085;
+	padding:18.2px ;
+	margin-left:-5px;
+}
+.download-area{
+	background-color:#f5f6f7;
+	overflow:hidden;
+}
+.download-slogan {
+	padding-top:70px;
+	text-align:center;
+
+	
+}
+
+.download-slogan h2 {
+	text-transform:uppercase;
+	font-family:'gotham rounded bold';
+	margin-bottom:10px;
+	letter-spacing: 0.1em;
+	color:#373737;
+	
+}
+
+.download-slogan p {
+	text-transform:uppercase;
+	font-family:"GothamRoundedBook";
+	font-size:10px;
+	text-align:center;
+	letter-spacing:0.1em;
+	color:#5f5f5f;
+	line-height:20px;
+	
+	
+	
+}
+.company-logo{
+	
+	margin-top:20px;
+	padding-bottom:70px;
+}
+.apple-logo{
+	text-align:center;
+	float:left;
+	width:45%;
+	overflow:hidden;
+	margin-right:10%:
+	
+	
+}
+
+.android-logo{
+	
+	float:left;
+	text-align:center;
+	overflow:hidden;
+	width:45%;
+	
+	
+}
+	
+.apple-logo p {
+	display:inline-block;
+	text-decoration:none;
+	color:#ffffff;
+	font-size:15px;
+	background-color:#1abc9c;
+	padding:10px 30px;
+	text-transform:uppercase;
+	font-family:"Gotham Rounded Bold";
+	
+}
+.apple-logo i {
+	display:inline-block;
+	color:#ffffff;
+	font-size:15px;
+	background-color:#16a085;
+	padding:11px 30px;
+	margin-left:-5px;
+	
+}
+
+.android-logo p {
+	display:inline-block;
+	text-decoration:none;
+	color:#ffffff;
+	font-size:15px;
+	background-color:#1abc9c;
+	text-transform:uppercase;
+	padding:10px 30px;
+	font-family:"Gotham Rounded Bold";
+}
+
+.android-logo i {
+	display:inline-block;
+	color:#ffffff;
+	font-size:15px;
+	background-color:#16a085;
+	padding:11px 30px;
+	margin-left:-5px;
+	
+}
+.footer-area {
+	
+	padding:70px 0 ;
+	overflow:hiiden;
+}
+.footer-area-left{
+	float:left;
+	overflow:hidden;
+}
+.footer-area-right{
+	float:right;
+	overflow:hiiden;
+}
+.footer-area-left ul {}
+
+.footer-area-left ul li {
+	display:inline-block;
+}
+
+.footer-area-left ul li a {
+	text-decoration:none;
+	color:#373737;
+	display:block;
+	padding:10px;
+	border-right:1px soild #16a085;
+	font-family:"Gotham Rounded Bold";
+	text-transform:uppercase;
+	font-size:12px;
+	
+}
